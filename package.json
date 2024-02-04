@@ -11,13 +11,21 @@
   "keywords": [],
   "author": "https://twitter.com/Zizzamia",
   "license": "MIT",
+  "compilerOptions": {
+    "types": [
+      "ethers"
+    ]
+  },
   "dependencies": {
     "@coinbase/onchainkit": "0.4.3",
     "@ethereum-attestation-service/eas-sdk": "^1.4.1",
+    "bufferutil": "^4.0.8",
+    "ethers": "^6.10.0",
     "mongoose": "^8.1.1",
     "next": "13.5.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "utf-8-validate": "^5.0.10",
     "viem": "^2.7.1"
   },
   "devDependencies": {
